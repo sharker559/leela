@@ -1,1 +1,3 @@
-aiogram==2.25.1
+aiogram==2.25.1  # Если 3.x — aiogram==3.22.0, но код под 2.x
+fastapi==0.115.2  # Для webhook-сервера
+uvicorn==0.31.1  # Чтобы запустить FastAPI
