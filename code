@@ -18,7 +18,7 @@ if API_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN":
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=1756496815:AAGb9L58RP694i9tFyxe0ATRFFpUr3sB_i8)
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 # === Полный список клеток (номер: title, description) ===
